@@ -1,0 +1,12 @@
+api:
+  # name of the environment variable that holds your API key
+  api_key_env: OPENWEATHER_API_KEY
+
+# list of cities to fetch
+cities:
+  - Hyderabad
+  - New York
+  - San Francisco
+
+database: weather.db
+log_file: etl.log
